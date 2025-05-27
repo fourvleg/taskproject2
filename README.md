@@ -24,7 +24,7 @@ pip install -r requirements.txt
 1. Клонируйте репозиторий и перейдите в папку проекта:
 
    ```
-   git clone <адрес-репозитория>
+   git clone https://github.com/fourvleg/taskproject2.git
    cd taskproject2
    ```
 
