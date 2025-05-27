@@ -1,0 +1,124 @@
+[
+{
+  "model": "cash_flows.status",
+  "pk": 1,
+  "fields": {
+    "name": "Бизнес"
+  }
+},
+{
+  "model": "cash_flows.status",
+  "pk": 2,
+  "fields": {
+    "name": "Лично"
+  }
+},
+{
+  "model": "cash_flows.status",
+  "pk": 3,
+  "fields": {
+    "name": "Налог"
+  }
+},
+{
+  "model": "cash_flows.type",
+  "pk": 1,
+  "fields": {
+    "name": "Пополнение"
+  }
+},
+{
+  "model": "cash_flows.type",
+  "pk": 2,
+  "fields": {
+    "name": "Списание"
+  }
+},
+{
+  "model": "cash_flows.category",
+  "pk": 1,
+  "fields": {
+    "name": "Инфраструктура",
+    "type": 2
+  }
+},
+{
+  "model": "cash_flows.category",
+  "pk": 2,
+  "fields": {
+    "name": "Маркетинг",
+    "type": 1
+  }
+},
+{
+  "model": "cash_flows.subcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Proxy",
+    "category": 1
+  }
+},
+{
+  "model": "cash_flows.subcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Avito",
+    "category": 2
+  }
+},
+{
+  "model": "cash_flows.subcategory",
+  "pk": 4,
+  "fields": {
+    "name": "VPS",
+    "category": 1
+  }
+},
+{
+  "model": "cash_flows.subcategory",
+  "pk": 5,
+  "fields": {
+    "name": "Farpost",
+    "category": 2
+  }
+},
+{
+  "model": "cash_flows.transaction",
+  "pk": 4,
+  "fields": {
+    "date": "2025-05-27",
+    "status": 2,
+    "type": 1,
+    "category": 2,
+    "subcategory": 2,
+    "amount": "1000.00",
+    "comment": "Купили что то"
+  }
+},
+{
+  "model": "cash_flows.transaction",
+  "pk": 5,
+  "fields": {
+    "date": "2025-05-27",
+    "status": 2,
+    "type": 2,
+    "category": 1,
+    "subcategory": 1,
+    "amount": "1000.00",
+    "comment": "Оплата за что то"
+  }
+},
+{
+  "model": "cash_flows.transaction",
+  "pk": 6,
+  "fields": {
+    "date": "2025-05-27",
+    "status": 3,
+    "type": 2,
+    "category": 1,
+    "subcategory": 4,
+    "amount": "10000.00",
+    "comment": "¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯\r\nhttps://i.redd.it/cw46wss2l8c61.png\r\n¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯\r\n¯\\_(ツ)_/¯"
+  }
+}
+]
